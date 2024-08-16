@@ -14,6 +14,7 @@ Search for Telegram Groups and Channels using a List of Keywords
 - searchterms.txt is the textfile containing the searchterms
 - found-channels.csv is a filename for your channel-collection, it will be created when not existing
 - blacklist.csv is a filename of excluded channels, it will be created when not existing
+- the first run will create a session and ask you for a code: telegram sends it to you
 
 The script searches for each search term via the api 
 The search results are then cleansed of duplicates, already known entries and entries from the blacklist.
